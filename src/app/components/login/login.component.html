@@ -1,0 +1,23 @@
+<div class="login">
+  <div class="login__form">
+    <div class="login-field">
+      <label class="login-field__label">Username</label>
+      <input type="text" [(ngModel)]="username" class="login-field__input"/>
+    </div>
+
+    <div class="login-field">
+      <label class="login-field__label">Password</label>
+      <input type="password" [(ngModel)]="password" class="login-field__input"/>
+    </div>
+
+    <div class="login-error" *ngIf="error.length">
+      {{error}}
+    </div>
+
+    <button class="login__button"
+            [disabled]="loginInProgress"
+            (click)="signIn()">
+      {{loginInProgress ? 'Signing in..' : 'Sign in'}}
+    </button>
+  </div>
+</div>

@@ -1,0 +1,15 @@
+.header {
+  height: 40px;
+  border-bottom: 1px solid #ccc;
+}
+
+.header__logout,
+.header__logout:visited {
+  float:left;
+  color:#000;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: Arial,sans-serif;
+  margin-top: 7px;
+}

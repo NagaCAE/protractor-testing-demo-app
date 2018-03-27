@@ -1,0 +1,52 @@
+.login__form {
+  width: 400px;
+  padding: 20px;
+  box-sizing: border-box;
+  background: #fff;
+  border: 1px solid #eee;
+  margin: 120px auto 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.login-field {
+  margin-bottom: 20px;
+}
+
+.login-field__label {
+  display: block;
+  color:#777;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.login-field__input {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  padding-left: 5px;
+  height: 30px;
+  font-family: Arial,sans-serif;
+  font-size: 14px;
+}
+
+.login__button {
+  display: block;
+  border: none;
+  height: 50px;
+  color:#fff;
+  font-size: 18px;
+  background: #ff5800;
+  width: 100%;
+}
+
+.login__button:disabled {
+  opacity: .6;
+  cursor: not-allowed;
+}
+
+.login-error {
+  margin-bottom: 20px;
+  color:#ff3300;
+  text-align: left;
+}
