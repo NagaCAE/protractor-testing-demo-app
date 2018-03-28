@@ -2,12 +2,12 @@
   <div class="login__form">
     <div class="login-field">
       <label class="login-field__label">Username</label>
-      <input type="text" [(ngModel)]="username" class="login-field__input"/>
+      <input id="username" type="text" [(ngModel)]="username" class="login-field__input"/>
     </div>
 
     <div class="login-field">
       <label class="login-field__label">Password</label>
-      <input type="password" [(ngModel)]="password" class="login-field__input"/>
+      <input id="password" type="password" [(ngModel)]="password" class="login-field__input"/>
     </div>
 
     <div class="login-error" *ngIf="error.length">
