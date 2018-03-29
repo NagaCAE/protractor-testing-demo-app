@@ -12,8 +12,8 @@ describe('Login page', () => {
   });
 
   it('should have correct titles and button text', () => {
-    expect(page.usernameLabel.getText()).toEqual('Username1');
-    expect(page.passwordLabel.getText()).toEqual('Password1');
+    expect(page.usernameLabel.getText()).toEqual('Username');
+    expect(page.passwordLabel.getText()).toEqual('Password');
     expect(page.signIn.getText()).toEqual('Sign in');
   });
 
